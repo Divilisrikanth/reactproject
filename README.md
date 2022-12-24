@@ -69,20 +69,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-css styles 
-.filter-btn {
-    background: transparent;
-    border-color: transparent;
-    font-size: 1rem;
-    text-transform: capitalize;
-    margin: 0 0.5rem;
-    letter-spacing: 1px;
-    padding: 0.375rem 0.75rem;
-    color: #c59d5f;
-    color: var(--clr-gold);
-    cursor: pointer;
-    transition: all .3s linear;
-    transition: var(--transition);
-    border-radius: 0.25rem;
-    border-radius: var(--radius);
-}
+//slider buttons styles :
+ref: https://www.youtube.com/watch?v=55pgyMWPVeI
+css styles ss: https://prnt.sc/kQ_diquNYoC2

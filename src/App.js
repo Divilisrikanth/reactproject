@@ -3,6 +3,7 @@ import Menu from './Menu';
 import Categories from './Categories';
 import items from './data';
 import Content from './Content';
+import Header from './components/Header/frontbanner';
 const allCategories = ['all', ...new Set(items.map((item) => item.category))];
 
 function App() {
@@ -20,20 +21,16 @@ function App() {
 
   };
   return (
-    <section>
-      <div className="underline">
-        <div className="navbar">
-          <ul>
-            <li>
-              <img src="https://images.indianexpress.com/2016/04/amazon-logo-480.jpg" width={105} alt=".in"></img>
-            </li>
-          </ul>
-        </div>
-        <Categories categories={categories} filterItems={filterItems} />
-        <Content />
-        <Menu items={menuItems} />
+    <section className='menu section'>
+      <div className="title">
+        <Header />
+        <div className="underline"></div>
       </div>
-    </section>
+      <Categories categories={categories} filterItems={filterItems} />
+      <Content />
+      <Menu items={menuItems} />
+    </section >
+
   );
 }
 export default App;
